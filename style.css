@@ -42,12 +42,14 @@
 
 
 .pinkdiv{
-    background-color: #173f4c;
-    /* border: solid 5px; */
-    border-color: #df2020;
+    
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
 }
+   
+
+
 .darkblue{
     background-color: #add8e6;
     height: 150px;
@@ -93,3 +95,37 @@
     border-color: #f40205;
    
 }
+.pink1{
+    background-color: #fbbbbc;
+    width: 50%;
+    height: 100%;
+    border: solid 5px;
+    border-color: #a52b2a;
+}
+
+.pink2{
+    background-color: #fbbbbc;
+    width: 100%;
+    height: 50%;
+    border: solid 5px;
+    border-color: #a52b2a;
+}
+.pink3{
+    background-color: #fbbbbc;
+    width: 100%;
+    height: 50%;
+    border: solid 5px;
+    border-color: #a52b2a;
+}
+.mainpink{
+  
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 7px;
+    padding-left: 10px;
+}
+
+  
