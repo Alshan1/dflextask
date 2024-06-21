@@ -57,18 +57,39 @@
 .box1{
     width: 200px;
     height: 100%;
-    background-color: #df2020;
+    background-color: #fddbb9;
     flex-grow: 1;
+    border: solid 5px #f88072;
 }
 .box2{
     width: 200px;
     height: 100%;
-    background-color: #26df20;
+    background-color: #fddbb9;
     flex-grow: 1;
+    border: solid 5px #f88072;
+    display: flex;
+    padding: 10px;
 }
 .box3{
     width: 200px;
     height: 100%;
-    background-color: #140d55;
+    background-color: #fddbb9;
     flex-grow: 1;
+    border: solid 5px #f88072;
+}
+.inside1{
+    background-color: #fac0cb;
+    height: 100px;
+    width: 50%;
+    border: solid 5px;
+    border-color: #f40205;
+  
+}
+.inside2{
+    background-color: #fac0cb;
+    height: 100px;
+    width: 50%;
+    border: solid 5px;
+    border-color: #f40205;
+   
 }
