@@ -35,6 +35,10 @@
     height: 150px;
     border: solid 5px;
     border-color: #2000ff;
+    display: flex;
+    padding: 5px;
+    gap: 11px;
+}
 
 }
 .pinkdiv{
@@ -50,3 +54,21 @@
     border: solid 5px;
     border-color: #2000ff;
 } 
+.box1{
+    width: 200px;
+    height: 100%;
+    background-color: #df2020;
+    flex-grow: 1;
+}
+.box2{
+    width: 200px;
+    height: 100%;
+    background-color: #26df20;
+    flex-grow: 1;
+}
+.box3{
+    width: 200px;
+    height: 100%;
+    background-color: #140d55;
+    flex-grow: 1;
+}
